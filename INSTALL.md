@@ -142,6 +142,11 @@ SHOW TABLES LIKE '%razorpay_webhook_logs%';
    - **User groups**: Check **All** (or restrict to desired user groups).
    - **Status**: Set to **Active**.
 4. Click the **Configure** tab to configure the processor parameters:
+
+<p align="center">
+  <img src="docs/screenshots/03_admin_processor_configuration.png" width="850" alt="Razorpay Processor Configuration in CS-Cart Admin">
+</p>
+
    - **Key ID**: Enter your Razorpay API Key ID (e.g. `rzp_test_...`).
    - **Key Secret**: Enter your Razorpay API Key Secret.
    - **Webhook Secret**: Enter a secure random string (e.g. `whsec_mysecretkey123`). You will enter the exact same string in your Razorpay Dashboard.

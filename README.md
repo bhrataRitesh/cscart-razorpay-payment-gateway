@@ -16,8 +16,8 @@ A production-grade, native **Razorpay Payment Gateway** add-on for **CS-Cart** a
 | <img src="docs/screenshots/01_razorpay_modal_checkout.png" width="450" alt="Razorpay Live Checkout Modal"> | <img src="docs/screenshots/02_checkout_presentation_card.png" width="450" alt="Presentation & Fallback Card"> |
 
 <p align="center">
-  <b>Admin Payment Method Configuration (CS-Cart Admin Panel)</b><br>
-  <img src="docs/screenshots/03_admin_processor_configuration.png" width="850" alt="Admin Configuration">
+  <b>CS-Cart Administration &mdash; Razorpay Payment Processor Configuration (Modal View)</b><br>
+  <img src="docs/screenshots/03_admin_processor_configuration.png" width="850" alt="CS-Cart Administration Razorpay Processor Configuration">
 </p>
 
 ---
@@ -321,6 +321,10 @@ Audit log preventing replay attacks and tracking webhook notifications:
 ## Configuration Reference
 
 Navigate to **Administration > Administration > Payment methods**, click **Add payment method**, and select **Razorpay** as processor. In the **Configure** tab, configure:
+
+<p align="center">
+  <img src="docs/screenshots/03_admin_processor_configuration.png" width="850" alt="Razorpay Payment Processor Configuration">
+</p>
 
 | Setting | Parameter Key | Required | Description |
 | :--- | :--- | :---: | :--- |
