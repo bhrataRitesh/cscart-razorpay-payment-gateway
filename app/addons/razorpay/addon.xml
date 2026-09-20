@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<addon scheme="4.0">
+    <id>razorpay</id>
+    <version>1.0.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>Razorpay Integration</name>
+        </author>
+    </authors>
+
+    <autoload>
+        <psr4 prefix="Tygh\Addons\Razorpay\">src</psr4>
+    </autoload>
+
+    <queries>
+        <item for="install" type="file">database/install.sql</item>
+        <item for="uninstall" type="file">database/uninstall.sql</item>
+    </queries>
+
+    <bootstrap>\Tygh\Addons\Razorpay\Bootstrap</bootstrap>
+    <installer>\Tygh\Addons\Razorpay\Installer</installer>
+</addon>

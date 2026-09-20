@@ -1,0 +1,154 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::razorpay"
+msgid "Razorpay Payments"
+msgstr "Razorpay Payments"
+
+msgctxt "Addons::description::razorpay"
+msgid "Accept payments via Razorpay (UPI, Cards, NetBanking, Wallets, PayLater)"
+msgstr "Accept payments via Razorpay (UPI, Cards, NetBanking, Wallets, PayLater)"
+
+msgctxt "Languages::processor_description_razorpay"
+msgid "Accept UPI, Credit/Debit Cards, Net Banking, Wallets, and PayLater via Razorpay."
+msgstr "Accept UPI, Credit/Debit Cards, Net Banking, Wallets, and PayLater via Razorpay."
+
+msgctxt "Languages::razorpay.key_id"
+msgid "Key ID"
+msgstr "Key ID"
+
+msgctxt "Languages::razorpay.key_id_tooltip"
+msgid "Your Razorpay API Key ID (e.g. rzp_test_... or rzp_live_...). Found under Razorpay Dashboard > Settings > API Keys."
+msgstr "Your Razorpay API Key ID (e.g. rzp_test_... or rzp_live_...). Found under Razorpay Dashboard > Settings > API Keys."
+
+msgctxt "Languages::razorpay.key_secret"
+msgid "Key Secret"
+msgstr "Key Secret"
+
+msgctxt "Languages::razorpay.key_secret_tooltip"
+msgid "Your Razorpay API Key Secret. Generated alongside your Key ID in the Razorpay Dashboard."
+msgstr "Your Razorpay API Key Secret. Generated alongside your Key ID in the Razorpay Dashboard."
+
+msgctxt "Languages::razorpay.webhook_secret"
+msgid "Webhook Secret"
+msgstr "Webhook Secret"
+
+msgctxt "Languages::razorpay.webhook_secret_tooltip"
+msgid "Secret key configured for Webhooks in Razorpay Dashboard > Settings > Webhooks."
+msgstr "Secret key configured for Webhooks in Razorpay Dashboard > Settings > Webhooks."
+
+msgctxt "Languages::razorpay.webhook_url"
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+msgctxt "Languages::razorpay.webhook_url_instruction"
+msgid "Copy and paste this URL in your Razorpay Dashboard (Settings > Webhooks). Recommended events: order.paid, payment.captured, payment.failed."
+msgstr "Copy and paste this URL in your Razorpay Dashboard (Settings > Webhooks). Recommended events: order.paid, payment.captured, payment.failed."
+
+msgctxt "Languages::razorpay.payment_action"
+msgid "Payment Action"
+msgstr "Payment Action"
+
+msgctxt "Languages::razorpay.capture_immediately"
+msgid "Capture Immediately (Recommended)"
+msgstr "Capture Immediately (Recommended)"
+
+msgctxt "Languages::razorpay.authorize_only"
+msgid "Authorize Only (Manual Capture Later)"
+msgstr "Authorize Only (Manual Capture Later)"
+
+msgctxt "Languages::razorpay.store_currency"
+msgid "Storefront Currency (Default)"
+msgstr "Storefront Currency (Default)"
+
+msgctxt "Languages::razorpay.currency_tooltip"
+msgid "Currency used to charge the customer on Razorpay. Select Storefront Currency or force a specific currency (INR requires your account to support INR)."
+msgstr "Currency used to charge the customer on Razorpay. Select Storefront Currency or force a specific currency (INR requires your account to support INR)."
+
+msgctxt "Languages::razorpay.order_status_success"
+msgid "Order Status on Successful Payment"
+msgstr "Order Status on Successful Payment"
+
+msgctxt "Languages::razorpay.order_status_failed"
+msgid "Order Status on Failed Payment"
+msgstr "Order Status on Failed Payment"
+
+msgctxt "Languages::razorpay.merchant_name"
+msgid "Merchant Display Name"
+msgstr "Merchant Display Name"
+
+msgctxt "Languages::razorpay.merchant_name_tooltip"
+msgid "Company or store name displayed on the Razorpay checkout popup. Defaults to your store name."
+msgstr "Company or store name displayed on the Razorpay checkout popup. Defaults to your store name."
+
+msgctxt "Languages::razorpay.theme_color"
+msgid "Modal Theme Color (HEX)"
+msgstr "Modal Theme Color (HEX)"
+
+msgctxt "Languages::razorpay.theme_color_tooltip"
+msgid "Hex color code for the checkout modal header and buttons (e.g. #3399cc)."
+msgstr "Hex color code for the checkout modal header and buttons (e.g. #3399cc)."
+
+msgctxt "Languages::razorpay.connecting_notice"
+msgid "Secure checkout powered by Razorpay"
+msgstr "Secure checkout powered by Razorpay"
+
+msgctxt "Languages::razorpay.opening_modal_notice"
+msgid "Launching secure payment gateway, please wait..."
+msgstr "Launching secure payment gateway, please wait..."
+
+msgctxt "Languages::razorpay.pay_now"
+msgid "Click here to pay now"
+msgstr "Click here to pay now"
+
+msgctxt "Languages::razorpay.secure_256_encryption"
+msgid "256-bit SSL Encrypted & PCI-DSS Compliant"
+msgstr "256-bit SSL Encrypted & PCI-DSS Compliant"
+
+msgctxt "Languages::razorpay.payment_successful"
+msgid "Payment successfully verified and approved via Razorpay."
+msgstr "Payment successfully verified and approved via Razorpay."
+
+msgctxt "Languages::razorpay.signature_verification_failed"
+msgid "Razorpay payment signature verification failed. Please contact store support."
+msgstr "Razorpay payment signature verification failed. Please contact store support."
+
+msgctxt "Languages::razorpay.payment_cancelled_by_user"
+msgid "Payment was cancelled. You can try again or select an alternate payment method."
+msgstr "Payment was cancelled. You can try again or select an alternate payment method."
+
+msgctxt "Languages::razorpay.credentials_not_configured"
+msgid "Razorpay payment method is not properly configured. Please contact administrator."
+msgstr "Razorpay payment method is not properly configured. Please contact administrator."
+
+msgctxt "Languages::razorpay.order_creation_failed"
+msgid "Failed to initiate payment with Razorpay. Please check your credentials or try again later."
+msgstr "Failed to initiate payment with Razorpay. Please check your credentials or try again later."
+
+msgctxt "Languages::razorpay.payment_confirmed_via_webhook"
+msgid "Payment confirmed via Razorpay webhook."
+msgstr "Payment confirmed via Razorpay webhook."
+
+msgctxt "Languages::razorpay.payment_failed_via_webhook"
+msgid "Payment failed notification received from Razorpay."
+msgstr "Payment failed notification received from Razorpay."
+
+msgctxt "Languages::razorpay.order_not_found"
+msgid "Order not found."
+msgstr "Order not found."
+
+msgctxt "Languages::razorpay.keys_missing_notice"
+msgid "Razorpay Key ID or Key Secret is empty. Please enter your Razorpay API credentials."
+msgstr "Razorpay Key ID or Key Secret is empty. Please enter your Razorpay API credentials."
+
+msgctxt "Languages::razorpay.cancel_and_return"
+msgid "Cancel and return to cart"
+msgstr "Cancel and return to cart"
+
+msgctxt "Languages::return_to_cart"
+msgid "Return to cart"
+msgstr "Return to cart"
+
